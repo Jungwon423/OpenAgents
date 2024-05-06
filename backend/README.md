@@ -154,7 +154,7 @@ export ANTHROPIC_API_KEY=<ANTHROPIC_API_KEY>
 
 **5.1 Kaggle Setup for Kaggle Search Tool (Necessary if you use KaggleSearchTool in data agent)**
 
-Please follow [Kaggle Public API page](https://www.kaggle.com/docs/api#installation) and save your API token to your device, which should be save in `~/.kaggle/kaggle.json`.
+Please follow [Kaggle Public API page](https://www.kaggle.com/docs/api#ipinstallation) and save your API token to your device, which should be save in `~/.kaggle/kaggle.json`.
 
 **5.2 Auto Tool Selection (Necessary if you use "Auto" in plugins agent)**
 

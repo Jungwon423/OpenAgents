@@ -32,7 +32,7 @@ def get_conversation_list() -> Response:
                 }
             )
     except Exception as e:
-        return Response(response=None,
+        return Response(response=json.dumps({"error": str(e)}),
                         status=f'{INTERNAL} error fetch conversation list')
     return jsonify(conversations)
 
